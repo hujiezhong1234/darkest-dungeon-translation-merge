@@ -13,12 +13,9 @@
 ➙支持同一个ID对应多条翻译的情况（按顺序匹配）
 
 # 环境要求：
-➙Python 3.13.9 或更高版本
+Python 3.6 或更高版本
 
-➙依赖如下：
-
-<img width="359" height="108" alt="QQ20260302-094944" src="https://github.com/user-attachments/assets/312adefd-287a-45d2-8379-362bd41892a2" />
-
+无需安装额外依赖，使用Python标准库即可运行
 
 # 具体用法：
 
@@ -36,17 +33,19 @@ XX-CN.xml：旧版中文文件（你想要复用的翻译来源）
 -
 用记事本或其他编辑器打开 merge.py，找到文件开头的这三行：
 
+```python
 EN_FILE = 'shieldbreaker.string_table-EN.xml'    # 改为你的未翻译的文件名
-
 CN_FILE = 'shieldbreaker.string_table-CN.xml'    # 改为你的想要提取的翻译的文件名
-
 OUTPUT_FILE = 'shieldbreaker.string_table.xml'   # 合并的文件名（可自定义）
+```
 
 ▶step 3（运行脚本）：
 -
 在文件所在目录打开命令行（CMD/终端），执行：
 
+```python
 python merge.py
+```
 
 即可获得翻译文件文件
 
