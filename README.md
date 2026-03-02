@@ -15,7 +15,8 @@
 # 环境要求：
 ➙Python 3.13.9 或更高版本
 
-➙依赖如下
+➙依赖如下：
+
 <img width="359" height="108" alt="QQ20260302-094944" src="https://github.com/user-attachments/assets/312adefd-287a-45d2-8379-362bd41892a2" />
 
 
